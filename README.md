@@ -208,7 +208,7 @@
    
    Operações matemáticas
    <ul>
-      <li>A ordem das operações segue a sigla PEMDAS (parênteses, expoentes, multiplicação/divisão, adição/subtração).</li>
+      <li>A ordem das operações segue a sigla <strong>PEMDAS</strong> (parênteses, expoentes, multiplicação/divisão, adição/subtração).</li>
    </ul>
 
 ## 1.8 Decisões
