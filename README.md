@@ -336,3 +336,74 @@ Exemplo 2:
 
 ## 1.9 Repetições
 
+Os algoritmos ajudam a gente a fazer tarefas repetitivas. 
+
+As instruções são executadas na ordem em que são escritas, porém, você pode fazer com que um <strong>trecho em específico seja executado mais de uma vez</strong>.
+
+Enquanto
+<ul>
+	<li>Enquanto uma condição for verdadeira, o programa executa essas instruções.</li>
+	<li>Ao final das instruções, ele checa se a condição continua verdadeira e executa novamente.</li>
+	<li>Só vai parar quando a condição for falsa.</li>
+	<li>O mínimo de vezes que a condição executa é zero. O máximo é infinito, como em um jogo, em que ele roda em um loop infinito.</li>
+</ul>
+
+Exemplo 1:
+<ul>
+	<li>inteiro num, contador, resultado</li>
+	<li>escreva(“Qual tabuada deseja ver?”)</li>
+	<li>leia(num)</li>
+	<li>contador = 10</li>
+	<li>enquanto (contador <= 10) {</li>
+		<li>resultado = num * contador</li>
+		<li>escreva(num + “ x “ + contador + “ = “ + resultado + “\n”)</li>
+		<li>contador = contador + 1</li>
+	<li>}</li>
+</ul>
+	
+Para
+		
+Exemplo 2:
+<ul>
+	<li>inteiro num, contador, resultado</li>
+	<li>escreva(“Qual tabuada deseja ver?”)</li>
+	<li>leia(num)</li>
+	<li>para (contador = 0; contador <= 10; contador = contador + 1) {</li>
+		<li>resultado = num * contador</li>
+		<li>escreva(num + “ x “ + contador + “ = “ + resultado + “\n”)</li>
+	<li>}</li>
+</ul>
+				  
+Diferença entre Enquanto e Para
+<ul>
+	<li>Em geral, ENQUANTO você usa quando não tem uma noção muito clara de quantas vezes quer executar a condição (indeterminado);</li>
+	<ul>
+		<li>Ex: caixa de supermercado, em que voce passa vários produtos até fechar o produto. Cada pessoa pode passar um número diferente de vezes.</li>
+	</ul>
+	<li>Em geral, PARA você tem a noção geral de quando começa, enquanto deve executar e quanto eu tenho que alterar a cada passo (mais determinado);</li>
+	<ul>
+		<li>Ex: na tabuada, você executa a multiplicação de 0 até 10.</li>
+	</ul>
+</ul>
+	
+Exemplo 3 – versão 1:
+<ul>
+	<li>inteiro n, numero, quadrado</li>
+	<li>escreva(“Digite o número final: ”)</li>
+	<li>leia(n)</li>
+	<li>para (contador = 1; contador <= n; numero = numero + 1) {</li>
+		<li>se (numero % 2 == 0) {</li>
+		<li>quadrado = numero * numero</li>
+		<li>escreva(num + “ ^2 = “ + quadrado + “\n”)</li>
+	<li>}</li>
+</ul>
+	
+Exemplo 3 – versão 2:
+<ul>
+	<li>inteiro n, numero, quadrado</li>
+	<li>escreva(“Digite o número final: ”)</li>
+	<li>leia(n)</li>
+	<li>para (contador = 2; contador <= n; numero = numero + 2) {</li>
+		<li>escreva(num + “ ^2 = “ + (numero * numero) + “\n”)</li>
+	<li>}</li>
+</ul>
