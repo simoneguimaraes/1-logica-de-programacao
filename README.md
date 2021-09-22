@@ -71,11 +71,11 @@
 ## 1.4	Linguagens, frameworks e bibliotecas
 
   <ul>
-   <li>Linguagem de programação: idioma em que eu quero conversar com o computador – ex: Java, PHP, Javascript, C+, Phyton;</li>
-   <li>Linguagem de marcação – ex: HTML;</li>
-   <li>Linguagem de estilização – ex: CSS;</li>
-   <li>Bibliotecas: pequenos trechos de código que eu reaproveito – ex: estrutura de pedidos que eu utilizo no sistema de vendas, de estoques, de relatórios para o gestor / estrutura que utilizo no desktop do site e no mobile);</li>
-   <li>Frameworks: bibliotecas com manual de uso, que agilizam e tornam mais seguro o desenvolvimento  – ex: do front-end (Angular, ReactJs);</li>
+   <li><strong>Linguagem de programação</strong>: idioma em que eu quero conversar com o computador – ex: Java, PHP, Javascript, C+, Phyton;</li>
+   <li><strong>Linguagem de marcação</strong> – ex: HTML;</li>
+   <li><strong>Linguagem de estilização</strong> – ex: CSS;</li>
+   <li><strong>Bibliotecas</strong>: pequenos trechos de código que eu reaproveito – ex: estrutura de pedidos que eu utilizo no sistema de vendas, de estoques, de relatórios para o gestor / estrutura que utilizo no desktop do site e no mobile);</li>
+   <li><strong>Frameworks</strong>: bibliotecas com manual de uso, que agilizam e tornam mais seguro o desenvolvimento  – ex: do front-end (Angular, ReactJs);</li>
   </ul>
 
 ## 1.5	Editores de texto
@@ -89,18 +89,31 @@
 
    <strong>O que é um Algoritmo?</strong>
    <ul>
-   <li>Sequência de comandos para transformar uma informação inicial em uma informação final. Ex: calcular o salário líquido de um funcionário da empresa – cria-se um algoritmo que já calcula os impostos que a empresa paga e retira do salário base;</li>
-   <li>É como a receita de bolo de fubá da vó, uma sequência ordenada de passos que possibilita que qualquer um consiga fazer o bolo.  Caso mude a ordem de preparo, o bolo não ficará igual.</li>
-   <li> Ex:</li>
-       <ol>  
-         <li>Em um liquidificador, adicione os ingredientes.
-         <li>Bata tudo até a massa ficar lisa e homogênea.
-         <li>Despeje a massa em uma forma untada e polvilhada.
-         <li>Leve para assar em forno pré-aquecido a 180 °C.
-         <li>Depois de 40 minutos, retire o bolo do forno. </li></ol> 
-   <li>O algoritmo precisa respeitar a linguagem de programação para que consiga ser lido.</li>
+      <li>Sequência de comandos para transformar uma informação inicial em uma informação final. Ex: calcular o salário líquido de um funcionário da empresa – cria-se um algoritmo que já calcula os impostos que a empresa paga e retira do salário base;</li>
+      <li>É como a receita de bolo de fubá da vó, uma sequência ordenada de passos que possibilita que qualquer um consiga fazer o bolo.  Caso mude a ordem de preparo, o bolo não ficará igual.</li>
+      <li>Receita do bolo:</li>
+          <ol>  
+            <li>Em um liquidificador, adicione os ingredientes.
+            <li>Bata tudo até a massa ficar lisa e homogênea.
+            <li>Despeje a massa em uma forma untada e polvilhada.
+            <li>Leve para assar em forno pré-aquecido a 180 °C.
+            <li>Depois de 40 minutos, retire o bolo do forno. </li></ol> 
+      <li>Exemplo de algoritmo:</li>
+            Algoritmo REALIZAR CADASTRO
+            var nome: inteiro
+            var CPF: inteiro
+            var e-mail: inteiro
+            Início
+            LEIA (nome)
+            LEIA (CPF)
+            LEIA (e-mail)
+            IMPRIMIR (nome)
+            IMPRIMIR (CPF)
+            IMPRIMIR (e-mail)
+            FIM
+      <li>O algoritmo precisa respeitar a linguagem de programação para que consiga ser lido.</li> 
    </ul>
-   
+     
    <i>Todo algoritmo tem a sequência: ENTRADA -> PROCESSAMENTO -> SAÍDA</i>
    <ul>
    <li>Entrada: tudo que precisamos informar para o algoritmo – informação bruta (ex: ingredientes);</li>
