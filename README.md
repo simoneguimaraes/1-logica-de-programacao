@@ -1,4 +1,4 @@
-# MÓDULO 1: INTRODUÇÃO AO DESENVOLVIMENTO E LÓGICA DE PROGRAMAÇÃO
+# INTRODUÇÃO AO DESENVOLVIMENTO E LÓGICA DE PROGRAMAÇÃO
 
 ## 1.1	O que é programação
 
@@ -110,3 +110,12 @@
       <li>escreva(“Oi, meu primeiro programa!\n”)</li>
       <li>escreva(“Agora vai!”)</li>
 </ul></ul>
+
+## 1.7 Variáveis e Operações
+
+
+## 1.8 Decisões
+
+
+## 1.9 Repetições
+
