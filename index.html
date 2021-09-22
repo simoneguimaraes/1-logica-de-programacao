@@ -91,33 +91,33 @@
    <ul>
       <li>Sequência de comandos para transformar uma informação inicial em uma informação final. Ex: calcular o salário líquido de um funcionário da empresa – cria-se um algoritmo que já calcula os impostos que a empresa paga e retira do salário base;</li>
       <li>O algoritmo precisa respeitar a linguagem de programação para que consiga ser lido;</li>
-      <li>É como a receita de bolo de fubá da vó, uma sequência ordenada de passos que possibilita que qualquer um consiga fazer o bolo.  Caso mude a ordem de preparo, o bolo não ficará igual.</li>
-      <li>Receita do bolo:</li>
-          <ol>  
+      <li>É como a receita de bolo de fubá da vó, uma sequência ordenada de passos que possibilita que qualquer um consiga fazer o bolo.</li>
+         <ol>  
             <li>Em um liquidificador, adicione os ingredientes.
             <li>Bata tudo até a massa ficar lisa e homogênea.
             <li>Despeje a massa em uma forma untada e polvilhada.
             <li>Leve para assar em forno pré-aquecido a 180 °C.
             <li>Depois de 40 minutos, retire o bolo do forno. </li>
          </ol> 
+      <li><i>Caso mude a ordem de preparo, o bolo não ficará igual.</i></li>     
     </ul>
-    
-   Exemplo de algoritmo: REALIZAR CADASTRO
-         <ul>         
-            <li>var nome: inteiro</li>
-            <li>var CPF: inteiro</li>
-            <li>var e-mail: inteiro</li>
-            <li>Início</li>
-            <li>LEIA (nome)</li>
-            <li>LEIA (CPF)</li>
-            <li>LEIA (e-mail)</li>
-            <li>IMPRIMIR (nome)</li>
-            <li>IMPRIMIR (CPF)</li>
-            <li>IMPRIMIR (e-mail)</li>
-            <li>FIM
-          </ul>
    
-   <i>Todo algoritmo tem a sequência: ENTRADA -> PROCESSAMENTO -> SAÍDA</i>
+   Exemplo de algoritmo: REALIZAR CADASTRO
+   <ul>         
+      <li>var nome: inteiro</li>
+      <li>var CPF: inteiro</li>
+      <li>var e-mail: inteiro</li>
+      <li>Início</li>
+      <li>LEIA (nome)</li>
+      <li>LEIA (CPF)</li>
+      <li>LEIA (e-mail)</li>
+      <li>IMPRIMIR (nome)</li>
+      <li>IMPRIMIR (CPF)</li>
+      <li>IMPRIMIR (e-mail)</li>
+      <li>FIM
+    </ul>
+   
+   <strong>Todo algoritmo tem a sequência: ENTRADA -> PROCESSAMENTO -> SAÍDA</strong>
    <ul>
       <li>Entrada: tudo que precisamos informar para o algoritmo – informação bruta (ex: ingredientes);</li>
       <li>Processamento: roteiro com a ordem do que será feito – regras do código (ex: modo de preparo);</li>
