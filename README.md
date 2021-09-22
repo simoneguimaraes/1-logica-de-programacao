@@ -213,6 +213,80 @@
 
 ## 1.8 Decisões
 
+O programa executa instrução após instrução e ele encontra uma pergunta, geralmente um teste lógico;
+
+Essa pergunta tem as respostas: sim/verdadeiro ou não/falso;
+
+Para saber qual ação o programa vai tomar, ele deverá fazer comparações (operação relacional):
+  <ul>
+      <li>Igualdade (==);</li>
+      <li>Diferença (!=);</li>
+      <li>Maior (>);</li>
+      <li>Maior ou igual (>=);</li>
+      <li>Menor (<);</li>
+      <li>Menor ou igual (<=).</li>
+  <ul>
+Exemplo 1:
+     
+real nota1, nota2, media
+escreva(“Digite a nota 1: “)
+leia(nota1)
+escreva(“Digite a nota 2: “)
+leia(nota2)
+media = (nota1 + nota2) / 2
+escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)
+se (media >= 6) {
+	escreva(“Parabéns, você foi aprovado! \n”)
+} senao {
+	escreva(“Você foi reprovado. \n”)
+}
+	escreva(“Fim do programa. \n”)
+}
+
+O teste lógico usando a condição AND (E) será verdadeiro apenas quando todas as condições forem verdadeiras:
+
+Faz sol?	Tem gasolina?	AND (E)
+V	V	V
+V	F	F
+F	V	F
+F	F	F
+
+O teste lógico usando a condição OR (OU) será não será verdadeiro apenas quando todas as condições forem falsas:
+
+Faz sol?	Tem gasolina?	OR (OU)
+V	V	V
+V	F	V
+F	V	V
+F	F	F
+
+Exemplo 2:
+
+real nota1, nota2, media
+escreva(“Digite a nota 1: “)
+leia(nota1)
+escreva(“Digite a nota 2: “)
+leia(nota2)
+media = (nota1 + nota2) / 2
+escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)
+se (media >= 9 e media <= 10) {
+	escreva(“Conceito A”)
+} senao {
+	se (media >= 8 e media < 9) {
+		escreva(“Conceito B”)
+} senao {
+		se (media >= 7 e media < 8) {
+			escreva(“Conceito C”)
+} senao {
+			se (media >= 6 e media < 7) {
+				escreva(“Conceito D”)
+} senao { 
+				escreva(“Conceito E”)
+			}
+ 		}
+}
+escreva(“Fim do programa. \n”)
+}
+
 
 ## 1.9 Repetições
 
