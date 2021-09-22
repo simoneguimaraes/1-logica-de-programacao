@@ -229,20 +229,20 @@ Para saber qual ação o programa vai tomar, ele deverá fazer <strong>comparaç
 	  
 Exemplo 1:
   <ul> 
-	real nota1, nota2, media
-	escreva(“Digite a nota 1: “)
-	leia(nota1)
-	escreva(“Digite a nota 2: “)
-	leia(nota2)
-	media = (nota1 + nota2) / 2
-	escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)
-	se (media >= 6) {
-		escreva(“Parabéns, você foi aprovado! \n”)
-	} senao {
-		escreva(“Você foi reprovado. \n”)
-	}
-		escreva(“Fim do programa. \n”)
-	}
+	<li>real nota1, nota2, media</li>
+	<li>escreva(“Digite a nota 1: “)</li>
+	<li>leia(nota1)</li>
+	<li>escreva(“Digite a nota 2: “)</li>
+	<li>leia(nota2)</li>
+	<li>media = (nota1 + nota2) / 2</li>
+	<li>escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)</li>
+	<li>se (media >= 6) {</li>
+		<li>escreva(“Parabéns, você foi aprovado! \n”)</li>
+	<li>} senao {</li>
+		<li>escreva(“Você foi reprovado. \n”)</li>
+	<li>}</li>
+		<li>escreva(“Fim do programa. \n”)</li>
+	<li>}</li>
   </ul>
 	
 O teste lógico usando a condição <strong>AND (E)</strong> será verdadeiro apenas quando todas as condições forem verdadeiras:
@@ -307,31 +307,31 @@ O teste lógico usando a condição <strong>OR (OU)</strong> será não será ve
 
 Exemplo 2:
   <ul> 
-	real nota1, nota2, media
-	escreva(“Digite a nota 1: “)
-	leia(nota1)
-	escreva(“Digite a nota 2: “)
-	leia(nota2)
-	media = (nota1 + nota2) / 2
-	escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)
-	se (media >= 9 e media <= 10) {
-		escreva(“Conceito A”)
-	} senao {
-		se (media >= 8 e media < 9) {
-			escreva(“Conceito B”)
-	} senao {
-			se (media >= 7 e media < 8) {
-				escreva(“Conceito C”)
-	} senao {
-				se (media >= 6 e media < 7) {
-					escreva(“Conceito D”)
-	} senao { 
-					escreva(“Conceito E”)
-				}
-			}
-	}
-	escreva(“Fim do programa. \n”)
-	}
+	<li>real nota1, nota2, media</li>
+	<li>escreva(“Digite a nota 1: “)</li>
+	<li>leia(nota1)</li>
+	<li>escreva(“Digite a nota 2: “)</li>
+	<li>leia(nota2)</li>
+	<li>>media = (nota1 + nota2) / 2</li>
+	<li>escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)</li>
+	<li>se (media >= 9 e media <= 10) {</li>
+		<li>escreva(“Conceito A”)</li>
+	<li>} senao {</li>
+		<li>se (media >= 8 e media < 9) {</li>
+			<li>escreva(“Conceito B”)</li>
+	<li>} senao {</li>
+			<li>se (media >= 7 e media < 8) {</li>
+				<li>escreva(“Conceito C”)</li>
+	<li>} senao {</li>
+				<li>se (media >= 6 e media < 7) {</li>
+					<li>escreva(“Conceito D”)</li>
+	<li>} senao { </li>
+					<li>escreva(“Conceito E”)</li>
+				<li>}</li>
+			<li>}</li>
+	<li>}</li>
+	<li>escreva(“Fim do programa. \n”)</li>
+	<li>}</li>
   </ul>
 
 ## 1.9 Repetições
