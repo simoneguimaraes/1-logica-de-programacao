@@ -101,6 +101,7 @@
             <li>Depois de 40 minutos, retire o bolo do forno. </li>
          </ol> 
     </ul>
+    
    Exemplo de algoritmo: REALIZAR CADASTRO
          <ul>         
             <li>var nome: inteiro</li>
@@ -205,7 +206,7 @@
       <li>escreva(qtDias + “ dia(s)\n”)</li>
    </ul>
    
-   Operações
+   Operações matemáticas
    <ul>
       <li>A ordem das operações segue a sigla PEMDAS (parênteses, expoentes, multiplicação/divisão, adição/subtração).</li>
    </ul>
