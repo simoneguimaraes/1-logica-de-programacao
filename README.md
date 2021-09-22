@@ -163,7 +163,6 @@
       <li>var nome: cadeia</li>
       <li>var idade: inteiro</li>
       <li>var peso: real</li>
-
       <li>escreva(“Por favor, digite o seu nome.”)</li>
       <li>leia(nome)</li>
       <li>escreva(“Por favor, digite a sua idade.”)</li>
@@ -177,7 +176,6 @@
    Exemplo 2: 
    <ul>
       <li>inteiro valor1, valor2, res</li>
-      
       <li>escreva(“Digite um valor: “)</li>
       <li>leia(valor1)</li>
       <li>escreva(“Digite outro valor: “)</li>
@@ -193,7 +191,6 @@
    Exemplo 3:
    <ul>
       <li>inteiro idade, qtAnos, qtMeses, qtDias, sobra</li>
-      
       <li>escreva(“Digite a idade em dias: “)</li>
       <li>leia(idade)</li>
       <li>qtAnos = idade / 365</li>
