@@ -248,20 +248,62 @@ Exemplo 1:
 O teste lógico usando a condição <strong>AND (E)</strong> será verdadeiro apenas quando todas as condições forem verdadeiras:
 
 <table>
-Faz sol?	Tem gasolina?	AND (E)
-V	V	V
-V	F	F
-F	V	F
-F	F	F
-<table>
+<tr>
+	<th>Faz sol?</th>	
+	<th>Tem gasolina?</th>	
+	<th>AND (E)</th>
+</tr>
+<tr>
+	<td>V</td>	
+	<td>V</td>	
+	<td>V</td>
+</tr>
+<tr>
+	<td>V</td>	
+	<td>F</td>	
+	<td>F</td>
+</tr>
+<tr>
+	<td>F</td>	
+	<td>V</td>	
+	<td>F</td>
+</tr>
+<tr>
+	<td>F</td>	
+	<td>F</td>	
+	<td>F</td>
+</tr>
+</table>
 	
 O teste lógico usando a condição <strong>OR (OU)</strong> será não será verdadeiro apenas quando todas as condições forem falsas:
 
-Faz sol?	Tem gasolina?	OR (OU)
-V	V	V
-V	F	V
-F	V	V
-F	F	F
+<table>
+<tr>
+	<th>Faz sol?</th>	
+	<th>Tem gasolina?</th>	
+	<th>OR (OU)</th>
+</tr>
+<tr>
+	<td>V</td>	
+	<td>V</td>	
+	<td>V</td>
+</tr>
+<tr>
+	<td>V</td>	
+	<td>F</td>	
+	<td>V</td>
+</tr>
+<tr>
+	<td>F</td>	
+	<td>V</td>	
+	<td>V</td>
+</tr>
+<tr>
+	<td>F</td>	
+	<td>F</td>	
+	<td>F</td>
+</tr>
+</table>
 
 Exemplo 2:
   <ul> 
