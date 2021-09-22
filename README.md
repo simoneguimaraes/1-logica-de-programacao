@@ -136,7 +136,79 @@
    </ul>
 
 ## 1.7 Variáveis e Operações
+   
+   O que é uma Variável? 
+   <ul>
+      <li>Espaço na memória do computador onde inserimos um dado que pode ser alterado durante a execução do algoritmo;</li>
+      <li>As variáveis são como “caixas” destinadas a guardar algo que pode mudar ao longo do tempo.</li>
+   </ul>
+   Tipos de dados que são usados para qualificar a informação:
+   <ul>
+      <li>Inteiro: números inteiros (0, 1, 2 , 3…);</li>
+      <li>Real: números com casas decimais (0; 1,2; 2,1; 3);</li>
+      <li>Cadeia: basicamente textos (são colocados entre aspas “ “);</li>
+   </ul>
+   Tipos de dados que são usados para quantificar a informação:
+   <ul>
+      <li>Tamanho: para indicar o espaço de memória utilizado no programa;</li>
+   </ul>
+   Declaração de variável
+   <ul>
+      <li>O ato de dar um nome e um tipo é chamado de declaração de variável. Para que o programa funcione corretamente, é possível que você declare logo no início todas as variáveis.</li>
+      <li>Além disso, cada uma delas só mostrará um valor por vez, chamado de valor atual. Para trocá-lo é preciso fazer uma nova declaração.</li>
+   </ul>
+   
+   Exemplo 1: 
+   <ul>
+      <li>var nome: cadeia</li>
+      <li>var idade: inteiro</li>
+      <li>var peso: real</li>
 
+      <li>escreva(“Por favor, digite o seu nome.”)</li>
+      <li>leia(nome)</li>
+      <li>escreva(“Por favor, digite a sua idade.”)</li>
+      <li>leia(idade)</li>
+      <li>escreva(“Por favor, digite o seu peso.”)</li>
+      <li>leia(peso)</li>
+      <li>escreva(“Você digitou os seguintes valores: \n”)</li>
+      <li>escreva(nome +“\n” + idade + “\n” + peso)</li>
+   </ul>
+   
+   Exemplo 2: 
+   <ul>
+      <li>inteiro valor1, valor2, res</li>
+      
+      <li>escreva(“Digite um valor: “)</li>
+      <li>leia(valor1)</li>
+      <li>escreva(“Digite outro valor: “)</li>
+      <li>leia(valor2)</li>
+      <li>res = valor1 + valor2</li>
+      <li>escreva(“O resultado da soma de ” + valor1 + “ com “ + valor2 + “ é: “ + res)</li>
+      <li>res = valor1 - valor2</li>
+      <li>escreva(“O resultado da subtração de ” + valor1 + “ com “ + valor2 + “ é: “ + res)</li>
+      <li>res = valor1 % valor2</li>
+      <li>escreva(“O resultado do resto da divisão de ” + valor1 + “ com “ + valor2 + “ é: “ + res)</li>
+   </ul>
+   
+   Exemplo 3:
+   <ul>
+      <li>inteiro idade, qtAnos, qtMeses, qtDias, sobra</li>
+      
+      <li>escreva(“Digite a idade em dias: “)</li>
+      <li>leia(idade)</li>
+      <li>qtAnos = idade / 365</li>
+      <li>sobra = idade % 365</li>
+      <li>escreva(qtAnos + “ ano(s)\n”)</li>
+      <li>qtMeses = sobra / 30</li>
+      <li>escreva(qtMeses + “ mes(es)\n”)</li>
+      <li>qtDias = sobra % 30</li>
+      <li>escreva(qtDias + “ dia(s)\n”)</li>
+   </ul>
+   
+   Operações
+   <ul>
+      <li>A ordem das operações segue a sigla PEMDAS (parênteses, expoentes, multiplicação/divisão, adição/subtração).</li>
+   </ul>
 
 ## 1.8 Decisões
 
