@@ -244,7 +244,8 @@ Exemplo 1:
 		<li>escreva(“Fim do programa. \n”)</li>
 	<li>}</li>
   </ul>
-	
+
+### AND (E)
 O teste lógico usando a condição <strong>AND (E)</strong> será verdadeiro apenas quando todas as condições forem verdadeiras:
 
 <table>
@@ -274,7 +275,8 @@ O teste lógico usando a condição <strong>AND (E)</strong> será verdadeiro ap
 	<td>F</td>
 </tr>
 </table>
-	
+
+### OR (OU)
 O teste lógico usando a condição <strong>OR (OU)</strong> será não será verdadeiro apenas quando todas as condições forem falsas:
 
 <table>
@@ -340,7 +342,7 @@ Os algoritmos ajudam a gente a fazer tarefas repetitivas.
 
 As instruções são executadas na ordem em que são escritas, porém, você pode fazer com que um <strong>trecho em específico seja executado mais de uma vez</strong>.
 
-Enquanto
+### Enquanto
 <ul>
 	<li>Enquanto uma condição for verdadeira, o programa executa essas instruções.</li>
 	<li>Ao final das instruções, ele checa se a condição continua verdadeira e executa novamente.</li>
@@ -361,7 +363,7 @@ Exemplo 1:
 	<li>}</li>
 </ul>
 	
-Para
+### Para
 		
 Exemplo 2:
 <ul>
@@ -374,7 +376,7 @@ Exemplo 2:
 	<li>}</li>
 </ul>
 				  
-Diferença entre Enquanto e Para
+### Diferença entre Enquanto e Para
 <ul>
 	<li>Em geral, ENQUANTO você usa quando não tem uma noção muito clara de quantas vezes quer executar a condição (indeterminado);</li>
 	<ul>
