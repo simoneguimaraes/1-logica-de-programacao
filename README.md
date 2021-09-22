@@ -98,19 +98,20 @@
             <li>Despeje a massa em uma forma untada e polvilhada.
             <li>Leve para assar em forno pré-aquecido a 180 °C.
             <li>Depois de 40 minutos, retire o bolo do forno. </li></ol> 
-      <li>Exemplo de algoritmo:</li>
-            Algoritmo REALIZAR CADASTRO
-            var nome: inteiro
-            var CPF: inteiro
-            var e-mail: inteiro
-            Início
-            LEIA (nome)
-            LEIA (CPF)
-            LEIA (e-mail)
-            IMPRIMIR (nome)
-            IMPRIMIR (CPF)
-            IMPRIMIR (e-mail)
-            FIM
+      <li>Exemplo de algoritmo: REALIZAR CADASTRO</li>
+         <ul>         
+            <li>var nome: inteiro</li>
+            <li>var CPF: inteiro</li>
+            <li>var e-mail: inteiro</li>
+            <li>Início</li>
+            <li>LEIA (nome)</li>
+            <li>LEIA (CPF)</li>
+            <li>LEIA (e-mail)</li>
+            <li>IMPRIMIR (nome)</li>
+            <li>IMPRIMIR (CPF)</li>
+            <li>IMPRIMIR (e-mail)</li>
+            <li>FIM
+          </ul>
       <li>O algoritmo precisa respeitar a linguagem de programação para que consiga ser lido.</li> 
    </ul>
      
