@@ -213,6 +213,199 @@
 
 ## 1.8 Decisões
 
+O programa executa instrução após instrução e ele encontra uma pergunta, geralmente um teste lógico;
+
+Essa pergunta tem as respostas: sim/verdadeiro ou não/falso;
+
+Para saber qual ação o programa vai tomar, ele deverá fazer <strong>comparações (operação relacional)</strong>:
+  <ul>
+      <li>Igualdade (==);</li>
+      <li>Diferença (!=);</li>
+      <li>Maior (>);</li>
+      <li>Maior ou igual (>=);</li>
+      <li>Menor (<);</li>
+      <li>Menor ou igual (<=).</li>
+  </ul>
+	  
+Exemplo 1:
+  <ul> 
+	<li>real nota1, nota2, media</li>
+	<li>escreva(“Digite a nota 1: “)</li>
+	<li>leia(nota1)</li>
+	<li>escreva(“Digite a nota 2: “)</li>
+	<li>leia(nota2)</li>
+	<li>media = (nota1 + nota2) / 2</li>
+	<li>escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)</li>
+	<li>se (media >= 6) {</li>
+		<li>escreva(“Parabéns, você foi aprovado! \n”)</li>
+	<li>} senao {</li>
+		<li>escreva(“Você foi reprovado. \n”)</li>
+	<li>}</li>
+		<li>escreva(“Fim do programa. \n”)</li>
+	<li>}</li>
+  </ul>
+
+### AND (E)
+O teste lógico usando a condição <strong>AND (E)</strong> será verdadeiro apenas quando todas as condições forem verdadeiras:
+
+<table>
+<tr>
+	<th>Faz sol?</th>	
+	<th>Tem gasolina?</th>	
+	<th>AND (E)</th>
+</tr>
+<tr>
+	<td>V</td>	
+	<td>V</td>	
+	<td>V</td>
+</tr>
+<tr>
+	<td>V</td>	
+	<td>F</td>	
+	<td>F</td>
+</tr>
+<tr>
+	<td>F</td>	
+	<td>V</td>	
+	<td>F</td>
+</tr>
+<tr>
+	<td>F</td>	
+	<td>F</td>	
+	<td>F</td>
+</tr>
+</table>
+
+### OR (OU)
+O teste lógico usando a condição <strong>OR (OU)</strong> será não será verdadeiro apenas quando todas as condições forem falsas:
+
+<table>
+<tr>
+	<th>Faz sol?</th>	
+	<th>Tem gasolina?</th>	
+	<th>OR (OU)</th>
+</tr>
+<tr>
+	<td>V</td>	
+	<td>V</td>	
+	<td>V</td>
+</tr>
+<tr>
+	<td>V</td>	
+	<td>F</td>	
+	<td>V</td>
+</tr>
+<tr>
+	<td>F</td>	
+	<td>V</td>	
+	<td>V</td>
+</tr>
+<tr>
+	<td>F</td>	
+	<td>F</td>	
+	<td>F</td>
+</tr>
+</table>
+
+Exemplo 2:
+  <ul> 
+	<li>real nota1, nota2, media</li>
+	<li>escreva(“Digite a nota 1: “)</li>
+	<li>leia(nota1)</li>
+	<li>escreva(“Digite a nota 2: “)</li>
+	<li>leia(nota2)</li>
+	<li>>media = (nota1 + nota2) / 2</li>
+	<li>escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)</li>
+	<li>se (media >= 9 e media <= 10) {</li>
+		<li>escreva(“Conceito A”)</li>
+	<li>} senao {</li>
+		<li>se (media >= 8 e media < 9) {</li>
+			<li>escreva(“Conceito B”)</li>
+	<li>} senao {</li>
+			<li>se (media >= 7 e media < 8) {</li>
+				<li>escreva(“Conceito C”)</li>
+	<li>} senao {</li>
+				<li>se (media >= 6 e media < 7) {</li>
+					<li>escreva(“Conceito D”)</li>
+	<li>} senao { </li>
+					<li>escreva(“Conceito E”)</li>
+				<li>}</li>
+			<li>}</li>
+	<li>}</li>
+	<li>escreva(“Fim do programa. \n”)</li>
+	<li>}</li>
+  </ul>
 
 ## 1.9 Repetições
 
+Os algoritmos ajudam a gente a fazer tarefas repetitivas. 
+
+As instruções são executadas na ordem em que são escritas, porém, você pode fazer com que um <strong>trecho em específico seja executado mais de uma vez</strong>.
+
+### Enquanto
+<ul>
+	<li>Enquanto uma condição for verdadeira, o programa executa essas instruções.</li>
+	<li>Ao final das instruções, ele checa se a condição continua verdadeira e executa novamente.</li>
+	<li>Só vai parar quando a condição for falsa.</li>
+	<li>O mínimo de vezes que a condição executa é zero. O máximo é infinito, como em um jogo, em que ele roda em um loop infinito.</li>
+</ul>
+
+Exemplo 1:
+<ul>
+	<li>inteiro num, contador, resultado</li>
+	<li>escreva(“Qual tabuada deseja ver?”)</li>
+	<li>leia(num)</li>
+	<li>contador = 10</li>
+	<li>enquanto (contador <= 10) {</li>
+		<li>resultado = num * contador</li>
+		<li>escreva(num + “ x “ + contador + “ = “ + resultado + “\n”)</li>
+		<li>contador = contador + 1</li>
+	<li>}</li>
+</ul>
+	
+### Para
+		
+Exemplo 2:
+<ul>
+	<li>inteiro num, contador, resultado</li>
+	<li>escreva(“Qual tabuada deseja ver?”)</li>
+	<li>leia(num)</li>
+	<li>para (contador = 0; contador <= 10; contador = contador + 1) {</li>
+		<li>resultado = num * contador</li>
+		<li>escreva(num + “ x “ + contador + “ = “ + resultado + “\n”)</li>
+	<li>}</li>
+</ul>
+				  
+### Diferença entre Enquanto e Para
+<ul>
+	<li>Em geral, ENQUANTO você usa quando não tem uma noção muito clara de quantas vezes quer executar a condição (indeterminado);</li>
+	<ul>
+		<li>Ex: caixa de supermercado, em que voce passa vários produtos até fechar o produto. Cada pessoa pode passar um número diferente de vezes.</li>
+	</ul>
+	<li>Em geral, PARA você tem a noção geral de quando começa, enquanto deve executar e quanto eu tenho que alterar a cada passo (mais determinado);</li>
+	<ul>
+		<li>Ex: na tabuada, você executa a multiplicação de 0 até 10.</li>
+	</ul>
+</ul>
+	
+Exemplo 3 – versão 1:
+<ul>
+	<li>inteiro n, numero, quadrado</li>
+	<li>escreva(“Digite o número final: ”)</li>
+	<li>leia(n)</li>
+	<li>para (contador = 1; contador <= n; numero = numero + 1) {</li>
+		<li>se (numero % 2 == 0) {</li>
+		<li>quadrado = numero * numero</li>
+		<li>escreva(num + “ ^2 = “ + quadrado + “\n”)</li>
+	<li>}</li>
+</ul>
+	
+Exemplo 3 – versão 2:
+<ul>
+	<li>inteiro n, numero, quadrado</li>
+	<li>escreva(“Digite o número final: ”)</li>
+	<li>leia(n)</li>
+	<li>para (contador = 2; contador <= n; numero = numero + 2) {</li>
+		<li>escreva(num + “ ^2 = “ + (numero * numero) + “\n”)</li>
+	<li>}</li>
+</ul>
