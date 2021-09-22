@@ -142,16 +142,19 @@
       <li>Espaço na memória do computador onde inserimos um dado que pode ser alterado durante a execução do algoritmo;</li>
       <li>As variáveis são como “caixas” destinadas a guardar algo que pode mudar ao longo do tempo.</li>
    </ul>
+  
    Tipos de dados que são usados para qualificar a informação:
    <ul>
       <li>Inteiro: números inteiros (0, 1, 2 , 3…);</li>
       <li>Real: números com casas decimais (0; 1,2; 2,1; 3);</li>
       <li>Cadeia: basicamente textos (são colocados entre aspas “ “);</li>
    </ul>
+   
    Tipos de dados que são usados para quantificar a informação:
    <ul>
       <li>Tamanho: para indicar o espaço de memória utilizado no programa;</li>
    </ul>
+   
    Declaração de variável
    <ul>
       <li>O ato de dar um nome e um tipo é chamado de declaração de variável. Para que o programa funcione corretamente, é possível que você declare logo no início todas as variáveis.</li>
