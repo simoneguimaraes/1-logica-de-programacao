@@ -102,20 +102,21 @@
       <li><i>Caso mude a ordem de preparo, o bolo não ficará igual.</i></li>     
     </ul>
    
-   Exemplo de algoritmo: REALIZAR CADASTRO
-   <ul>         
-      <li>var nome: inteiro</li>
-      <li>var CPF: inteiro</li>
-      <li>var e-mail: inteiro</li>
-      <li>Início</li>
-      <li>LEIA (nome)</li>
-      <li>LEIA (CPF)</li>
-      <li>LEIA (e-mail)</li>
-      <li>IMPRIMIR (nome)</li>
-      <li>IMPRIMIR (CPF)</li>
-      <li>IMPRIMIR (e-mail)</li>
-      <li>FIM
-    </ul>
+   #### Exemplo de algoritmo: REALIZAR CADASTRO      
+   var nome: inteiro
+   <br>var CPF: inteiro
+   <br>var e-mail: inteiro
+   <br>
+   <br>Início
+   <br>LEIA (nome)
+   <br>LEIA (CPF)
+   <br>LEIA (e-mail)
+   <br>
+   <br>IMPRIMIR (nome)
+   <br>IMPRIMIR (CPF)
+   <br>IMPRIMIR (e-mail)
+   <br>FIM
+   <br>
    
    <strong>Todo algoritmo tem a sequência: ENTRADA -> PROCESSAMENTO -> SAÍDA</strong>
    <ul>
@@ -162,49 +163,57 @@
       <li>Além disso, cada uma delas só mostrará um valor por vez, chamado de valor atual. Para trocá-lo é preciso fazer uma nova declaração.</li>
    </ul>
    
-   Exemplo 1: 
-   <ul>
-      <li>var nome: cadeia</li>
-      <li>var idade: inteiro</li>
-      <li>var peso: real</li>
-      <li>escreva(“Por favor, digite o seu nome.”)</li>
-      <li>leia(nome)</li>
-      <li>escreva(“Por favor, digite a sua idade.”)</li>
-      <li>leia(idade)</li>
-      <li>escreva(“Por favor, digite o seu peso.”)</li>
-      <li>leia(peso)</li>
-      <li>escreva(“Você digitou os seguintes valores: \n”)</li>
-      <li>escreva(nome +“\n” + idade + “\n” + peso)</li>
-   </ul>
+#### Exemplo 1: 
+var nome: cadeia
+<br>var idade: inteiro
+<br>var peso: real
+<br>
+<br>escreva(“Por favor, digite o seu nome.”)
+<br>leia(nome)
+<br>
+<br>escreva(“Por favor, digite a sua idade.”)
+<br>leia(idade)
+<br>
+<br>escreva(“Por favor, digite o seu peso.”)
+<br>leia(peso)
+<br>
+<br>escreva(“Você digitou os seguintes valores: \n”)
+<br>escreva(nome +“\n” + idade + “\n” + peso)
+<br>
    
-   Exemplo 2: 
-   <ul>
-      <li>inteiro valor1, valor2, res</li>
-      <li>escreva(“Digite um valor: “)</li>
-      <li>leia(valor1)</li>
-      <li>escreva(“Digite outro valor: “)</li>
-      <li>leia(valor2)</li>
-      <li>res = valor1 + valor2</li>
-      <li>escreva(“O resultado da soma de ” + valor1 + “ com “ + valor2 + “ é: “ + res)</li>
-      <li>res = valor1 - valor2</li>
-      <li>escreva(“O resultado da subtração de ” + valor1 + “ com “ + valor2 + “ é: “ + res)</li>
-      <li>res = valor1 % valor2</li>
-      <li>escreva(“O resultado do resto da divisão de ” + valor1 + “ com “ + valor2 + “ é: “ + res)</li>
-   </ul>
+#### Exemplo 2: 
+inteiro valor1, valor2, res
+<br>
+<br>escreva(“Digite um valor: “)</li>
+<br>leia(valor1)</li>
+<br>
+<br>escreva(“Digite outro valor: “)
+<br>leia(valor2)
+<br>
+<br>res = valor1 + valor2
+<br>escreva(“O resultado da soma de ” + valor1 + “ com “ + valor2 + “ é: “ + res)
+<br>res = valor1 - valor2
+<br>escreva(“O resultado da subtração de ” + valor1 + “ com “ + valor2 + “ é: “ + res)
+<br>res = valor1 % valor2
+<br>escreva(“O resultado do resto da divisão de ” + valor1 + “ com “ + valor2 + “ é: “ + res)
+<br>
    
-   Exemplo 3:
-   <ul>
-      <li>inteiro idade, qtAnos, qtMeses, qtDias, sobra</li>
-      <li>escreva(“Digite a idade em dias: “)</li>
-      <li>leia(idade)</li>
-      <li>qtAnos = idade / 365</li>
-      <li>sobra = idade % 365</li>
-      <li>escreva(qtAnos + “ ano(s)\n”)</li>
-      <li>qtMeses = sobra / 30</li>
-      <li>escreva(qtMeses + “ mes(es)\n”)</li>
-      <li>qtDias = sobra % 30</li>
-      <li>escreva(qtDias + “ dia(s)\n”)</li>
-   </ul>
+#### Exemplo 3:
+inteiro idade, qtAnos, qtMeses, qtDias, sobra
+<br>
+<br>escreva(“Digite a idade em dias: “)
+<br>leia(idade)
+<br>
+<br>qtAnos = idade / 365
+<br>sobra = idade % 365
+<br>escreva(qtAnos + “ ano(s)\n”)
+<br>
+<br>qtMeses = sobra / 30
+<br>escreva(qtMeses + “ mes(es)\n”)
+<br>
+<br>qtDias = sobra % 30
+<br>escreva(qtDias + “ dia(s)\n”)
+<br>
    
    Operações matemáticas
    <ul>
@@ -227,23 +236,25 @@ Para saber qual ação o programa vai tomar, ele deverá fazer <strong>comparaç
       <li>Menor ou igual (<=).</li>
   </ul>
 	  
-Exemplo 1:
-  <ul> 
-	<li>real nota1, nota2, media</li>
-	<li>escreva(“Digite a nota 1: “)</li>
-	<li>leia(nota1)</li>
-	<li>escreva(“Digite a nota 2: “)</li>
-	<li>leia(nota2)</li>
-	<li>media = (nota1 + nota2) / 2</li>
-	<li>escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)</li>
-	<li>se (media >= 6) {</li>
-		<li>escreva(“Parabéns, você foi aprovado! \n”)</li>
-	<li>} senao {</li>
-		<li>escreva(“Você foi reprovado. \n”)</li>
-	<li>}</li>
-		<li>escreva(“Fim do programa. \n”)</li>
-	<li>}</li>
-  </ul>
+#### Exemplo 1: 
+real nota1, nota2, media
+<br>
+<br>escreva(“Digite a nota 1: “)
+<br>leia(nota1)
+<br>escreva(“Digite a nota 2: “)
+<br>leia(nota2)
+<br>
+<br>media = (nota1 + nota2) / 2
+<br>escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)
+<br>
+<br>se (media >= 6) {
+<br>escreva(“Parabéns, você foi aprovado! \n”)
+<br>} senao {
+<br>escreva(“Você foi reprovado. \n”)
+<br>}
+<br>escreva(“Fim do programa. \n”)
+<br>}
+<br>
 
 ### AND (E)
 O teste lógico usando a condição <strong>AND (E)</strong> será verdadeiro apenas quando todas as condições forem verdadeiras:
@@ -307,34 +318,36 @@ O teste lógico usando a condição <strong>OR (OU)</strong> será não será ve
 </tr>
 </table>
 
-Exemplo 2:
-  <ul> 
-	<li>real nota1, nota2, media</li>
-	<li>escreva(“Digite a nota 1: “)</li>
-	<li>leia(nota1)</li>
-	<li>escreva(“Digite a nota 2: “)</li>
-	<li>leia(nota2)</li>
-	<li>>media = (nota1 + nota2) / 2</li>
-	<li>escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)</li>
-	<li>se (media >= 9 e media <= 10) {</li>
-		<li>escreva(“Conceito A”)</li>
-	<li>} senao {</li>
-		<li>se (media >= 8 e media < 9) {</li>
-			<li>escreva(“Conceito B”)</li>
-	<li>} senao {</li>
-			<li>se (media >= 7 e media < 8) {</li>
-				<li>escreva(“Conceito C”)</li>
-	<li>} senao {</li>
-				<li>se (media >= 6 e media < 7) {</li>
-					<li>escreva(“Conceito D”)</li>
-	<li>} senao { </li>
-					<li>escreva(“Conceito E”)</li>
-				<li>}</li>
-			<li>}</li>
-	<li>}</li>
-	<li>escreva(“Fim do programa. \n”)</li>
-	<li>}</li>
-  </ul>
+#### Exemplo 2:
+real nota1, nota2, media
+<br>
+<br>escreva(“Digite a nota 1: “)
+<br>leia(nota1)
+<br>escreva(“Digite a nota 2: “)
+<br>leia(nota2)
+<br>
+<br>media = (nota1 + nota2) / 2
+<br>escreva(“A média entre as notas “ + nota1 + “ e “ +  nota1 + “ é de: “ + media + “\n”)
+<br>
+<br>se (media >= 9 e media <= 10) {
+<br>escreva(“Conceito A”)
+<br>} senao {
+<br>se (media >= 8 e media < 9) {
+<br>escreva(“Conceito B”)
+<br>} senao {
+<br>se (media >= 7 e media < 8) {
+<br>escreva(“Conceito C”)
+<br>} senao {
+<br>se (media >= 6 e media < 7) {
+<br>escreva(“Conceito D”)
+<br>} senao { 
+<br>escreva(“Conceito E”)
+<br>}
+<br>}
+<br>}
+<br>escreva(“Fim do programa. \n”)
+<br>}
+<br>		
 
 ## 1.9 Repetições
 
@@ -350,62 +363,64 @@ As instruções são executadas na ordem em que são escritas, porém, você pod
 	<li>O mínimo de vezes que a condição executa é zero. O máximo é infinito, como em um jogo, em que ele roda em um loop infinito.</li>
 </ul>
 
-Exemplo 1:
-<ul>
-	<li>inteiro num, contador, resultado</li>
-	<li>escreva(“Qual tabuada deseja ver?”)</li>
-	<li>leia(num)</li>
-	<li>contador = 10</li>
-	<li>enquanto (contador <= 10) {</li>
-		<li>resultado = num * contador</li>
-		<li>escreva(num + “ x “ + contador + “ = “ + resultado + “\n”)</li>
-		<li>contador = contador + 1</li>
-	<li>}</li>
-</ul>
+#### Exemplo 1:
+inteiro num, contador, resultado
+<br>
+<br>escreva(“Qual tabuada deseja ver?”)
+<br>leia(num)
+<br>contador = 10
+<br>
+<br>enquanto (contador <= 10) {
+<br>resultado = num * contador
+<br>escreva(num + “ x “ + contador + “ = “ + resultado + “\n”)
+<br>contador = contador + 1
+<br>}
+<br>
 	
 ### Para
 		
-Exemplo 2:
-<ul>
-	<li>inteiro num, contador, resultado</li>
-	<li>escreva(“Qual tabuada deseja ver?”)</li>
-	<li>leia(num)</li>
-	<li>para (contador = 0; contador <= 10; contador = contador + 1) {</li>
-		<li>resultado = num * contador</li>
-		<li>escreva(num + “ x “ + contador + “ = “ + resultado + “\n”)</li>
-	<li>}</li>
-</ul>
+#### Exemplo 2:
+inteiro num, contador, resultado
+<br>
+<br>escreva(“Qual tabuada deseja ver?”)
+<br>leia(num)
+<br>
+<br>para (contador = 0; contador <= 10; contador = contador + 1) {
+<br>resultado = num * contador
+<br>escreva(num + “ x “ + contador + “ = “ + resultado + “\n”)
+<br>}
+<br>
 				  
 ### Diferença entre Enquanto e Para
-<ul>
-	<li>Em geral, ENQUANTO você usa quando não tem uma noção muito clara de quantas vezes quer executar a condição (indeterminado);</li>
+
+Em geral, ENQUANTO você usa quando não tem uma noção muito clara de quantas vezes quer executar a condição (indeterminado);
 	<ul>
 		<li>Ex: caixa de supermercado, em que voce passa vários produtos até fechar o produto. Cada pessoa pode passar um número diferente de vezes.</li>
 	</ul>
-	<li>Em geral, PARA você tem a noção geral de quando começa, enquanto deve executar e quanto eu tenho que alterar a cada passo (mais determinado);</li>
+Em geral, PARA você tem a noção geral de quando começa, enquanto deve executar e quanto eu tenho que alterar a cada passo (mais determinado);
 	<ul>
 		<li>Ex: na tabuada, você executa a multiplicação de 0 até 10.</li>
 	</ul>
-</ul>
 	
-Exemplo 3 – versão 1:
-<ul>
-	<li>inteiro n, numero, quadrado</li>
-	<li>escreva(“Digite o número final: ”)</li>
-	<li>leia(n)</li>
-	<li>para (contador = 1; contador <= n; numero = numero + 1) {</li>
-		<li>se (numero % 2 == 0) {</li>
-		<li>quadrado = numero * numero</li>
-		<li>escreva(num + “ ^2 = “ + quadrado + “\n”)</li>
-	<li>}</li>
-</ul>
-	
-Exemplo 3 – versão 2:
-<ul>
-	<li>inteiro n, numero, quadrado</li>
-	<li>escreva(“Digite o número final: ”)</li>
-	<li>leia(n)</li>
-	<li>para (contador = 2; contador <= n; numero = numero + 2) {</li>
-		<li>escreva(num + “ ^2 = “ + (numero * numero) + “\n”)</li>
-	<li>}</li>
-</ul>
+#### Exemplo 3 – versão 1:
+inteiro n, numero, quadrado
+<br>
+<br>escreva(“Digite o número final: ”)
+<br>leia(n)
+<br>
+<br>para (contador = 1; contador <= n; numero = numero + 1) {
+<br>se (numero % 2 == 0) {
+<br>quadrado = numero * numero
+<br>escreva(num + “ ^2 = “ + quadrado + “\n”)
+<br>}
+<br>
+#### Exemplo 3 – versão 2:
+inteiro n, numero, quadrado
+<br>
+<br>escreva(“Digite o número final: ”)
+<br>leia(n)
+<br>
+<br>para (contador = 2; contador <= n; numero = numero + 2) {
+<br>escreva(num + “ ^2 = “ + (numero * numero) + “\n”)
+<br>}
+
