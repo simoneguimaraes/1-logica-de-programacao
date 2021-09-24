@@ -377,19 +377,18 @@ Exemplo 2:
 </ul>
 				  
 ### Diferença entre Enquanto e Para
-<ul>
-	<li>Em geral, ENQUANTO você usa quando não tem uma noção muito clara de quantas vezes quer executar a condição (indeterminado);</li>
+
+Em geral, ENQUANTO você usa quando não tem uma noção muito clara de quantas vezes quer executar a condição (indeterminado);
 	<ul>
 		<li>Ex: caixa de supermercado, em que voce passa vários produtos até fechar o produto. Cada pessoa pode passar um número diferente de vezes.</li>
 	</ul>
-	<li>Em geral, PARA você tem a noção geral de quando começa, enquanto deve executar e quanto eu tenho que alterar a cada passo (mais determinado);</li>
+Em geral, PARA você tem a noção geral de quando começa, enquanto deve executar e quanto eu tenho que alterar a cada passo (mais determinado);
 	<ul>
 		<li>Ex: na tabuada, você executa a multiplicação de 0 até 10.</li>
 	</ul>
-</ul>
 	
 #### Exemplo 3 – versão 1:
-<br>inteiro n, numero, quadrado
+inteiro n, numero, quadrado
 <br>
 <br>escreva(“Digite o número final: ”)
 <br>leia(n)
@@ -400,7 +399,7 @@ Exemplo 2:
 <br>}
 <br>
 #### Exemplo 3 – versão 2:
-<br>inteiro n, numero, quadrado
+inteiro n, numero, quadrado
 <br>
 <br>escreva(“Digite o número final: ”)
 <br>leia(n)
