@@ -401,11 +401,11 @@ Exemplo 3 – versão 1:
 </ul>
 	
 Exemplo 3 – versão 2:
-<ul>
-	<li>inteiro n, numero, quadrado</li>
-	<li>escreva(“Digite o número final: ”)</li>
-	<li>leia(n)</li>
-	<li>para (contador = 2; contador <= n; numero = numero + 2) {</li>
-		<li>escreva(num + “ ^2 = “ + (numero * numero) + “\n”)</li>
-	<li>}</li>
-</ul>
+<br>inteiro n, numero, quadrado
+<br>
+<br>escreva(“Digite o número final: ”)
+<br>leia(n)
+<br>para (contador = 2; contador <= n; numero = numero + 2) {
+<br>escreva(num + “ ^2 = “ + (numero * numero) + “\n”)
+<br>}
+
