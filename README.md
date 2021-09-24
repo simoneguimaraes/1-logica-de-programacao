@@ -388,19 +388,18 @@ Exemplo 2:
 	</ul>
 </ul>
 	
-Exemplo 3 – versão 1:
-<ul>
-	<li>inteiro n, numero, quadrado</li>
-	<li>escreva(“Digite o número final: ”)</li>
-	<li>leia(n)</li>
-	<li>para (contador = 1; contador <= n; numero = numero + 1) {</li>
-		<li>se (numero % 2 == 0) {</li>
-		<li>quadrado = numero * numero</li>
-		<li>escreva(num + “ ^2 = “ + quadrado + “\n”)</li>
-	<li>}</li>
-</ul>
-	
-Exemplo 3 – versão 2:
+#### Exemplo 3 – versão 1:
+<br>inteiro n, numero, quadrado
+<br>
+<br>escreva(“Digite o número final: ”)
+<br>leia(n)
+<br>para (contador = 1; contador <= n; numero = numero + 1) {
+<br>se (numero % 2 == 0) {
+<br>quadrado = numero * numero
+<br>escreva(num + “ ^2 = “ + quadrado + “\n”)
+<br>}
+<br>
+#### Exemplo 3 – versão 2:
 <br>inteiro n, numero, quadrado
 <br>
 <br>escreva(“Digite o número final: ”)
