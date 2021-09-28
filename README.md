@@ -424,3 +424,4 @@ inteiro n, numero, quadrado
 <br>escreva(num + “ ^2 = “ + (numero * numero) + “\n”)
 <br>}
 
+
