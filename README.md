@@ -423,5 +423,3 @@ inteiro n, numero, quadrado
 <br>para (contador = 2; contador <= n; numero = numero + 2) {
 <br>escreva(num + “ ^2 = “ + (numero * numero) + “\n”)
 <br>}
-
-
